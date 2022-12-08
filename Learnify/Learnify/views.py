@@ -37,6 +37,12 @@ def signup(request):
 def subjects(request):
     return render(request,'subjects.html')
 
+def singlesubject(request):
+    return render(request,'single-subject.html')
+
+def topic(request):
+    return render(request,'topic.html')
+
 def aboutus(request):
     return render(request,'aboutus.html')
 
