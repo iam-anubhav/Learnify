@@ -84,6 +84,7 @@ a{
     border-bottom: 3px solid var(--main-color);
 }
 
+
 /* Nav Bar : Start */
 #top{
     background: var(--main-color);
@@ -155,7 +156,7 @@ a{
 
 #banner1{
     height: 80vh;
-    background: url(/static/img/banner1-img1.jpg);
+    background: url(../images/banner1-img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20vh;
@@ -276,15 +277,17 @@ footer .copy{
 
 
 /* Sign In Page : Start */
+
 #subjects-banner,
 #signin-banner,
 #register-banner{
     height: 50vh;
-    background-image: url(/static/img/signup.jpg);
+    background-image: url(../images/signup.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 
 #register_form .form-outline{
     position: relative;
@@ -351,7 +354,7 @@ footer .copy{
 
 /* Sign in page : Start */
 #signin-banner{
-    background-image: url(/static/img/subject.jpg);
+    background-image: url(../images/subject.jpg);
      height: 60vh;
 
 }
@@ -361,7 +364,7 @@ footer .copy{
 /* Subjects Page : Start */
 
 #subjects-banner{
-    background-image: url(/static/img/subject.jpg);
+    background-image: url(../images/subject.jpg);
 }
 
 /* Media Query */
