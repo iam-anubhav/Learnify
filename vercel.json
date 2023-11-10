@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "Learnify/Learnify/wsgi.py",
+        "src": "Learnify/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
       },
@@ -21,7 +21,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "Learnify/Learnify/wsgi.py"
+        "dest": "Learnify/wsgi.py"
       }
     ]
   }
