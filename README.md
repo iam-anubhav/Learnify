@@ -1,1 +1,5 @@
 # Learnify
+
+Learnify is a dynamic e-learning platform dedicated to delivering an enriching educational experience. Our mission is to furnish students with a comprehensive repository of learning materials, including videos, notes, and presentations, fostering a holistic approach to learning. Developed with a blend of HTML, CSS, Javascript, and Python, Learnify stands at the intersection of innovation and accessibility. The website's user-friendly interface ensures seamless navigation, empowering learners to explore a diverse range of subjects at their own pace. Immerse yourself in expertly crafted video lessons, delve into meticulous study notes, and visualize complex concepts through dynamic presentations. Learnify transcends traditional boundaries, providing a flexible and accessible learning environment for students worldwide. Join us in this transformative journey where education meets technology, and empower yourself with knowledge on the Learnify platform.
+
+You can see the live website here : https://learnify-iota.vercel.app/
