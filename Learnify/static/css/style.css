@@ -251,7 +251,7 @@ a{
 }
 
 .card .img{
-    height:150px;
+    height:222px;
     width:100%;
 }
 
@@ -415,8 +415,8 @@ footer .copy{
     padding: 0;
 }
 
-#aboutus .card-body img{
-    height: 400px;
+#aboutus .card-body aboutimg{
+    height: 300px !important;
 }
 
 

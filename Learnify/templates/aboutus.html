@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+     <link rel="stylesheet" href="{% static 'css/style2.css' %}">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
     </div>
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
-            <a class="navbar-brand" href="#">Learnify</a>
+            <a class="navbar-brand" href="{% url 'index' %}">Learnify</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,7 +33,7 @@
                         <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#curriculum">Curriculum</a>
+                        <a class="nav-link" href="{% url 'index' %}">Curriculum</a>
                     </li>
 
                     <li class="nav-item">
@@ -56,14 +57,14 @@
     </nav>
     <!-- Nav Bar Complete -->
 
-    <div id="aboutus-banner" class="pt-5 banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div id="aboutus-banner" class="pt-5 banner">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-12">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <!-- subjects Banner: END  -->
     <div id="aboutus" class="pt-5 pb-3">
@@ -71,78 +72,78 @@
         <div class="container pb-5">
             <div class="row">
                 <h2 class="h2 mb-4">About Us</h2>
-                <p class="para mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. In soluta culpa numquam
-                    laudantium eius eos reprehenderit quis illo tempore omnis dolores, magnam impedit esse. Ipsa
-                    deserunt voluptatem ad possimus cupiditate.
+                <p class="para mb-5" style="font-size:1.5rem"><strong><i>"Teamwork is the ability to work together toward a common vision. The ability
+                    to direct individual accomplishments toward organizational objectives. It is the fuel that allows common
+                    people to attain uncommon results."</i></strong>
 
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="card mb-3" style="width: 100%;">
                             <div class="card-body">
-                                <img src="static/img/person.jpg" class="card-img" alt="...">
+                                <img src="static/img/aditya.png" class="card-img" alt="...">
                                 <ul id="social-icon">
-                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                             <div class="card-footer">
-                                <span class="dev-name"> Aditya</span>
-                                <span class="dev-work"> Designer</span>
+                                <span style="font-size:1.2rem" class="dev-name"> Aditya</span>
+                                <span class="dev-work"> Web Designer</span>
                             </div>
                           </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="card mb-3" style="width: 100%;">
                             <div class="card-body">
-                                <img src="static/img/person.jpg" class="card-img" alt="...">
+                                <img src="static/img/profile_pic.jpg" class="card-img" alt="...">
                                 <ul id="social-icon">
-                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/iam-anubhav/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                             <div class="card-footer">
-                                <span class="dev-name"> Aditya</span>
-                                <span class="dev-work"> Designer</span>
+                                <span style="font-size:1.2rem"class="dev-name"> Anubhav Verma</span>
+                                <span class="dev-work"> Full Stack Developer</span>
                             </div>
                           </div>
                     </div>
 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                         <div class="card mb-3" style="width: 100%;">
                             <div class="card-body">
-                                <img src="static/img/person.jpg" class="card-img" alt="...">
+                                <img src="static/img/aarzoo.jpg" class="card-img" alt="...">
                                 <ul id="social-icon">
-                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                             <div class="card-footer">
-                                <span class="dev-name"> Aditya</span>
-                                <span class="dev-work"> Designer</span>
+                                <span style="font-size:1.2rem"class="dev-name"> Aarzoo</span>
+                                <span class="dev-work"> Front-end Developer</span>
                             </div>
                           </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="card mb-3" style="width: 100%;">
                             <div class="card-body">
-                                <img src="static/img/person.jpg" class="card-img" alt="...">
+                                <img src="static/img/harsh.jpg" id="aboutimg" class="card-img" alt="...">
                                 <ul id="social-icon">
-                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                             <div class="card-footer">
-                                <span class="dev-name"> Aditya</span>
-                                <span class="dev-work"> Designer</span>
+                                <span style="font-size:1.2rem"class="dev-name"> Harsh Sharma</span>
+                                <span class="dev-work"> Back-End Developer</span>
                             </div>
                           </div>
                     </div>

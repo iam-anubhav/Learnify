@@ -23,7 +23,7 @@
     </div>
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'index' %}">Learnify</a>
+            <a class="navbar-brand" href="#">Learnify</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
                         <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'index' %}">Curriculum</a>
+                        <a class="nav-link" href="#curriculum">Curriculum</a>
                     </li>
 
                     <li class="nav-item">
@@ -68,7 +68,7 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
                             <li class="breadcrumb-item"><a href="{% url 'index' %}">Curriculum</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Maths</li>
+                            <li class="breadcrumb-item active" aria-current="page">हिंदी</li>
                         </ol>
                     </nav>
                 </div>
@@ -81,17 +81,16 @@
     <div id="subject" class="pt-5 pb-3 mb-3">
         <div class="container">
             <div class="row">
-                <h2 class="h2 mb-4">Maths</h2>
-                <p class="para mb-5" style="font-size:1.3rem"><strong><i>“Without mathematics, there's nothing you can do.
-                    Everything around you is mathematics. Everything around you is numbers.”</i></strong>
+                <h2 class="h2 mb-4">हिंदी</h2>
+                <p class="para mb-5" style="font-size:1.3rem"><strong><i>“हिन्दुस्तान की है शान हिन्दी, हर हिन्दुस्तानी की है पहचान हिन्दी, एकता की अनुपम परम्परा है हिन्दी, हर दिल का अरमान है हिन्दी।”</i></strong>
                 </p>
 
                 <div class="col-sm-6 col-md-4 mb-4">
                     <div class="card card-hover">
                         <div class="card-body">
-                            <h5 class="card-title mb-3">Lecture 1 :- <span class="topic">Sets</span></h5>
+                            <h5 class="card-title mb-3">लेक्चर 1 :- <span class="topic">संज्ञा और उसके भेद</span></h5>
                             <div class="d-flex card-btn">
-                                <a href="{% url 'topic' %}" class="btn1">Start</a>
+                                <a href="{% url 'th' %}" class="btn1">Start</a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +138,7 @@
 <!--                        </div>-->
 <!--                    </div>-->
 <!--                </div>-->
-                
+
             </div>
         </div>
     </div>

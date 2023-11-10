@@ -37,12 +37,39 @@ def signup(request):
 def subjects(request):
     return render(request,'subjects.html')
 
+def seven(request):
+    return render(request,'7th.html')
+def eight(request):
+    return render(request,'8th.html')
+def nine(request):
+    return render(request,'9th.html')
+def ten(request):
+    return render(request,'10th.html')
+def eleven(request):
+    return render(request,'11th.html')
+def twelve(request):
+    return render(request,'12th.html')
 def singlesubject(request):
     return render(request,'single-subject.html')
+def science(request):
+    return render(request,'science.html')
+def hindi(request):
+    return render(request,'hindi.html')
+def english(request):
+    return render(request,'english.html')
+def sst(request):
+    return render(request,'sst.html')
 
 def topic(request):
     return render(request,'topic.html')
-
+def th(request):
+    return render(request,'th.html')
+def te(request):
+    return render(request,'te.html')
+def ts(request):
+    return render(request,'ts.html')
+def tss(request):
+    return render(request,'tss.html')
 def aboutus(request):
     return render(request,'aboutus.html')
 
